@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>超链接</title>
+    </head>
+    <body>
+        <!-- 锚元素 -->
+        <a href="https://www.google.com/?hl=zh_CN" target="_blank">google</a>
+        <a href="https://www.baidu.com" target="_self">baidu</a>
+        <a href="./05_图片标签.html" target="_blank">本地图片标签</a>
+        <a href="./03_标准结构.html" target="_blank">
+            <img src="./images/1.jpg" width="200" alt="喵咪">
+        </a>
+
+        <!-- 跳转文件 -->
+        <!-- 支持本地或在线的图片（jpg）、视频（MP4）、文档（pdf）、动图（gif)直接打开-->
+        <!-- 不支持exe、zip直接打开 -->
+        <a href="./images/1.jpg" download="喵咪图片.jpg">下载喵咪图片</a>
+
+        <!-- 锚点跳转 -->
+        <a href="#loc2">地址二</a>
+        <a href="#loc4">地址四</a>
+        <div>
+            <p>地址一</p>
+            <img width="200" alt="喵咪" src="./images/1.jpg">
+            <a name="loc2"></a>
+            <p>地址二</p>
+            <img width="200" alt="喵咪" src="./images/1.jpg">
+            <p>地址三</p>
+            <img width="200" alt="喵咪" src="./images/1.jpg">
+            <p id="loc4">地址四</p>
+            <img width="200" alt="喵咪" src="./images/1.jpg">
+        </div>
+        <a href="#">回到顶部</a>
+        <a href="">刷新页面</a>
+        <a href="./06_超链接标签.html#loc2" target="_blank">页面跳转</a>
+        <a href="javascript:alert(警告提示);">js脚本</a>
+        <a href="tel:10010">拨打电话</a>
+        <a href="mailto:10010@163.com">发送邮件</a>
+    </body>
+</html>
