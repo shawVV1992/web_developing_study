@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>表格</title>
+</head>
+
+<body>
+    <table border="1" width="500" height="300" cellspacing="0">
+        <caption>表格标题</caption>
+        <thead height="20">
+            <tr>
+                <th>序号</th>
+                <th>姓名</th>
+                <th>性别</th>
+                <th>民族</th>
+                <th>政治面貌</th>
+            </tr>
+        </thead>
+        <tbody height="400" align="center">
+            <tr>
+                <td>1</td>
+                <td>张三</td>
+                <td>男</td>
+                <td>汉族</td>
+                <td>群众</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>李四</td>
+                <td>男</td>
+                <td>汉族</td>
+                <td>群众</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>王五</td>
+                <td>男</td>
+                <td>汉族</td>
+                <td>群众</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>吴六</td>
+                <td>男</td>
+                <td>汉族</td>
+                <td>群众</td>
+            </tr>
+        </tbody>
+        <tfoot height="20" align="center" valign="middle">
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>总计人数</td>
+                <td>4</td>
+            </tr>
+        </tfoot>
+    </table>
+    <!-- 换行 -->
+    <br>
+    <!-- 分割线 -->
+    <hr>
+    <!-- 按原文显示 -->
+    <pre></pre>
+    <!-- 表格的跨列与跨行 -->
+    <table border="1" cellspacing="0">
+        <caption>课程表</caption>
+
+        <head>
+            <tr>
+                <td>项目</td>
+                <td colspan="5" align="center">上课</td>
+                <td colspan="2" align="center">活动与休息</td>
+            </tr>
+        </head>
+
+        <body align="center">
+            <tr>
+                <td>星期</td>
+                <td>星期一</td>
+                <td>星期二</td>
+                <td>星期三</td>
+                <td>星期四</td>
+                <td>星期五</td>
+                <td>星期六</td>
+                <td>星期日</td>
+            </tr>
+            <tr>
+                <td rowspan="4">上午</td>
+                <td>语文</td>
+                <td>数学</td>
+                <td>英语</td>
+                <td>英语</td>
+                <td>物理</td>
+                <td>数学竞赛</td>
+                <td rowspan="4">休息</td>
+            </tr>
+            <tr>
+                <td>数学</td>
+                <td>语文</td>
+                <td>化学</td>
+                <td>物理</td>
+                <td>英语</td>
+                <td>篮球比赛</td>
+            </tr>
+            <tr>
+                <td>语文</td>
+                <td>数学</td>
+                <td>英语</td>
+                <td>英语</td>
+                <td>物理</td>
+                <td>数学竞赛</td>
+            </tr>
+            <tr>
+                <td>数学</td>
+                <td>语文</td>
+                <td>化学</td>
+                <td>物理</td>
+                <td>英语</td>
+                <td>篮球比赛</td>
+            </tr>
+            <tr>
+                <td rowspan="2">下午</td>
+                <td>语文</td>
+                <td>数学</td>
+                <td>英语</td>
+                <td>英语</td>
+                <td>物理</td>
+                <td>数学竞赛</td>
+                <td rowspan="2">休息</td>
+            </tr>
+            <tr>
+                <td>数学</td>
+                <td>语文</td>
+                <td>化学</td>
+                <td>物理</td>
+                <td>英语</td>
+                <td>篮球比赛</td>
+            </tr>
+        </body>
+    </table>
+</body>
+
+</html>
