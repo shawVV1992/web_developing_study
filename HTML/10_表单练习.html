@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>表单练习</title>
+    </head>
+    <body>
+        <form action="https://search.jd.com/search" target="_blank">
+            <fieldset>
+                <legend>主要信息</legend>
+                <label for="account">账户</label>
+                <input id="account" type="text" name="account" maxlength="10"><br>
+                <label for="pwd">密码</label>
+                <input id="pwd" type="password" name="password" maxlength="20"><br>
+                <label for="gender2">性别</label>
+                <input id="gender1" type="radio" name="gender" value="male">男
+                <input id="gender2" type="radio" name="gender" value="female"
+                    checked>女<br>
+            </fieldset>
+            <fieldset>
+                <legend>附加信息</legend>
+                <label>爱好</label>
+                <label for="hobby1">
+                    <input id="hobby1" type="checkbox" name="hobby"
+                        value="smoke"><span>抽烟</span>
+                </label>
+                <label for="hobby2">
+                    <input id="hobby2" type="checkbox" name="hobby"
+                        value="drink"><span>喝酒</span>
+                </label>
+                <label for="hobby3">
+                    <input id="hobby3" type="checkbox" name="hobby"
+                        value="perm"><span>烫头</span><br>
+                </label>
+                <label for="otherhobby">
+                    <span>其它</span>
+                    <textarea id="otherhobby" cols="23" rows="3"></textarea><br>
+                </label>
+                <label>籍贯</label>
+                <select name="place">
+                    <option value="河北省">河北</option>
+                    <option value="山西省" selected>山西</option>
+                    <option value="山东省">山东</option>
+                    <option value="广东省">广东</option>
+                </select>
+            </fieldset>
+            <input type="hidden" name="from" value="隐藏信息"><br>
+            <input type="submit" value="确认">
+            <input type="reset" value="重置">
+            <input type="button" name="common_button" value="常规按钮">
+        </form>
+    </body>
+</html>
